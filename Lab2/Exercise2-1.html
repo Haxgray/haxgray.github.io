@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		New HTML5 type demo
+	</title>
+
+	<style type="text/css">
+		body {background-color: lightblue; text-align: "center";}
+
+		h1{font-family:arial; color: darkred;background-color: orange;}
+		h3{font-family: tahoma; color: red;}
+
+		h2,em {background-color: yellow;font-weight: 300}
+		label{color: darkgreen;}
+
+
+		#intro em {background-color: lightgrey; padding: 50px;font-weight: bolder;}
+
+		.sepline {background-color: lightgreen;}
+
+		span{color: darkgrey; border: 1px solid;}
+
+		.extra span{color: inherit;}
+
+		h2 em{text-decoration: underline;}
+
+
+
+	</style>
+</head>
+<body>
+	<em><h1>New HTML5 type demo</h1></em>
+	<h3>This form demonstrates the new html5 input types</h3><br>
+
+	<h3 id="intro"><em>Fill out this form.</h3></em>
+
+
+	<br><p><label for="color">Color:</label>
+
+	<input type="color" autofocus><br></p>
+
+	<h3 class="sepline">---------------------------------------</h3>
+
+	<p><label for="date">Date:</label>
+
+	<input type="date" id="brithday" name="brithday" value="2021-11-18" min="2021-11-1" max="2021-11-30"><br></p>
+
+	<h3 class="sepline">---------------------------------------</h3>
+
+	<p><label for="email">Email:</label>
+
+	<input type="email" name="email" placeholder="name@gamil.com" required><br></p>
+
+	<h3 class="sepline">---------------------------------------</h3>
+
+
+	<p><form action="/action_page.php">
+
+		<label for="number">Number:</label>
+
+		<input type="number" name="name" min="1" max="7" value="3"><br>
+
+	</form></p>
+
+	<h3 class="sepline">---------------------------------------</h3>
+
+
+	<p><label for="range">Range:</label>
+
+	<input type="range" name="range" min="0" max="20"></p>
+
+	<h3 class="sepline">---------------------------------------</h3>
+
+	<h4> this <span>form</span> is privated</h4>
+	<h4 class="extra" style="color:rosybrown;" > this <span>form</span> is privated</h4>
+
+	<h2><em>Thank for your patience</em></h2>
+	<em>Thank for your patience</em>
+
+
+	<br><input type="submit" name="submit">
+
+
+</body>
+</html>
