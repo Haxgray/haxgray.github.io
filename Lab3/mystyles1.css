@@ -1,0 +1,22 @@
+
+body			{font-family: arial, sans-serif;
+				background-color: lightyellow;
+				color: darkgreen;
+				padding: 3em}
+
+@media screen and (min-width: 960px){
+	body{
+		background-color: pink;
+	}
+}
+nav 			{font-weight: bold;color: white;
+				border: 2px solid purple; text-align: center; 
+				width: 10em; background-color: royalblue;}
+nav ul 			{display: none; list-style: none; margin: 0; padding: 0;
+				top: 5px;left: 3px;right: 3px; width: 4px; position: relative;}
+nav:hover ul	{display: block;}
+nav ul li 		{border-top: 2px solid royalblue; 
+				background-color: white; width: 10em; color: black;
+				background: greenyellow;margin: 5em;padding: 5em;border: solid;}
+nav ul li:hover	{background-color: powderblue;}
+a 				{text-decoration: none;}
