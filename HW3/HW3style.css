@@ -1,0 +1,16 @@
+body {background-color: lightblue;margin-right: auto; margin-left: auto;}
+
+include {margin-right: auto; margin-left: auto;}
+
+div {font-size: 20px; margin: 1%}
+
+.input1 {width: 70%; height: 70%}
+
+#set {vertical-align: text-top;}
+
+float {float: right; padding-right: 30%; padding-left: 5%;}
+
+control {padding-left: 5%;}
+control1 {padding-left: 3.5%;}
+
+word {padding-left: 1%;}
