@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Random number</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		document.body.style.backgroundColor = 'lightyellow';
+		var rand = Math.floor((Math.random()*10)+1);
+		var input = parseInt(window.prompt('Enter'));
+
+		while(input!=rand){
+			var input = parseInt(window.prompt('Wrong, enter new number'));
+
+
+		}
+		document.write("<h1>Nice, Hit F5 to retry");
+	</script>
+
+</body>
+</html>
